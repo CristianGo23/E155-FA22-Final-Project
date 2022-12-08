@@ -42,11 +42,11 @@ permalink: /design/
 </div>
 <div>
    
-   The scoring module consists of a time-multiplexedd two-digit hex 7-segment display. The score is driven by the score enable signal from the game FSM as well as an adder that translates the score from hex to decimal.
+   The scoring module consists of a time-multiplexedd two-digit hex 7-segment display. The score is driven by the score enable signal from the game FSM as well as an adder that translates the score from hex to decimal. The wait states in the FSM are necessary in order to have the score increment exactly once in response to any scoring event.
 </div>
 <div>
    
-   We used test benches to verify the FSM as well as the pinball game as a whole (in FPGA). As we started implementing the hardware, we did more testing in hardware rather than in ModelSim.
+   We used test benches to verify the FSM as well as the pinball game as a whole (in FPGA). As we started implementing the hardware, we did more testing in hardware rather than in ModelSim. The testbenches in the repository were used to confirm accurate FSM flow as well as correct scoring.
 </div>
 
 ## FPGA Block Diagram
