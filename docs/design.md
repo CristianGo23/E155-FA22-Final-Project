@@ -50,3 +50,6 @@ permalink: /design/
 </div>
 
 ## FPGA Block Diagram
+<div style="text-align: left">
+  <img src="../assets/schematics/Game FSM Logic.jpg" alt="logo" width="500" />
+</div>
