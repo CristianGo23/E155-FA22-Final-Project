@@ -12,29 +12,41 @@ permalink: /doc/
 </div>
 
 <span class="bolded">IR Photodiode Sensors & IR LED Circuit (Tunnel & Lose)</span>
+
 <div style="text-align: left">
   <img src="./assets/schematics/FSM Reset.jpg" alt="logo" width="300" />
 </div>
+
 <span class="bolded">FSM Reset & Enable Circuit</span>
+
 <div style="text-align: left">
   <img src="./assets/schematics/Speaker.jpg" alt="logo" width="500" />
 </div>
+
 <span class="bolded">Speaker & Multiplexed Display Circuit</span>
+
 <div style="text-align: left">
   <img src="./assets/schematics/FPGA.jpg" alt="logo" width="300" />
 </div>
+
 <span class="bolded">Field-Programmable Gate Array (FPGA)</span>
+
 <div style="text-align: left">
   <img src="./assets/schematics/MCU.jpg" alt="logo" width="300" />
 </div>
+
 <span class="bolded">Microcontroller (MCU)</span>
+
 <div style="text-align: left">
   <img src="./assets/schematics/Target.jpg" alt="logo" width="200" />
 </div>
+
 <span class="bolded">Target Buttons Circuit</span>
+
 <div style="text-align: left">
   <img src="./assets/schematics/SPI.jpg" alt="logo" width="200" />
 </div>
+
 <span class="bolded">Addressable SPI Peripheral LED Strip Circuit</span>
 
 # Source Code Overview
