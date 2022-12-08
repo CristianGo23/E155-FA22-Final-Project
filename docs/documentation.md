@@ -7,7 +7,7 @@ permalink: /doc/
 # Schematics
 <!-- Include images of the schematics for your system. They should follow best practices for schematic drawings with all parts and pins clearly labeled. You may draw your schematics either with a software tool or neatly by hand. -->
 <div style="text-align: left">
-  <img src="./assets/schematics/Tunnel & Lose.jpg" alt="logo" width="300" />
+  <img src="./assets/schematics/Tunnel & Lose.jpg" alt="logo" width="500" />
 </div>
 <span class="bolded">IR Photodiode Sensors & IR LED Circuit (Tunnel & Lose)</span>
 <div style="text-align: left">
@@ -15,7 +15,7 @@ permalink: /doc/
 </div>
 <span class="bolded">FSM Reset & Enable Circuit</span>
 <div style="text-align: left">
-  <img src="./assets/schematics/Speaker.jpg" alt="logo" width="300" />
+  <img src="./assets/schematics/Speaker.jpg" alt="logo" width="500" />
 </div>
 <span class="bolded">Speaker & Multiplexed Display Circuit</span>
 <div style="text-align: left">
@@ -27,11 +27,11 @@ permalink: /doc/
 </div>
 <span class="bolded">Microcontroller (MCU)</span>
 <div style="text-align: left">
-  <img src="./assets/schematics/Target.jpg" alt="logo" width="300" />
+  <img src="./assets/schematics/Target.jpg" alt="logo" width="250" />
 </div>
 <span class="bolded">Target Buttons Circuit</span>
 <div style="text-align: left">
-  <img src="./assets/schematics/SPI.jpg" alt="logo" width="300" />
+  <img src="./assets/schematics/SPI.jpg" alt="logo" width="200" />
 </div>
 <span class="bolded">Addressable SPI Peripheral LED Strip Circuit</span>
 
