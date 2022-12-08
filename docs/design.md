@@ -29,5 +29,24 @@ permalink: /design/
 ## MCU Block Diagram
 
 # FPGA Design
+<div>
+   The FPGA's main function is to define the game logic using an FSM (finite state machine). On reset, or (re)starting the game, the game is in a sensing state. This is the state of the game for the most part. It senses: target hit, tunnel entered, win, and lose. If a target is hit, the game transitions to that state for a cycle in order to increment the score, and then it goes into a waiting state to wait for the button to be released to prevent multiple points from being rewarded from a single, prolonged button press. 
+</div>
+<div>
+   
+   The tunnel is considered entered when the second point in the tunnel array is obscured by the ball (tunnel[1]). From here, similar to hitting a target, the FSM goes into the Tunnel_1 state and increments the score for one cycle. Then, it goes into a waiting state. In this waiting state, the FSM is sensing for movement in the tunnel: whether the ball moves to the next gate (tunnel[2]) or falls out from the entrance (tunnel[0], the buffer). If it falls out from the entrance, the FSM returns to the sensing state. If it progresses to the next gate, it repeats the pattern of moving to Tunnel_2 and incrementing the score for one cycle, and then it moves to the corresponding waiting state. In this waiting state, the FSM similarly waits for the ball to progress to the third and final gate or for the ball to fall out from the entrance. If the ball falls out from the entrance, the FSM returns to the sensing state. If it crosses the third gate, it goes into Tunnel_3 state and increments the score for one cycle before returning to the sensing state.
+</div>
+<div>
+   
+   While in the sensing state, the FSM also checks the score to see if the threshold has been crossed. If yes, then the FSM transitions to the win state, and the game is over. Similarly, if the sensing state detects that the ball passed the flippers (signaled by another IR LED/sensor unit), then the FSM goes into the lose state and the game is over. The FSM outputs are enable_score and alert_MCU. Alert_MCU is a signal that communicates to the MCU what state the FSM is in and therefore what light/sound sequence to play.
+</div>
+<div>
+   
+   The scoring module consists of a time-multiplexedd two-digit hex 7-segment display. The score is driven by the score enable signal from the game FSM as well as an adder that translates the score from hex to decimal.
+</div>
+<div>
+   
+   We used test benches to verify the FSM as well as the pinball game as a whole (in FPGA). As we started implementing the hardware, we did more testing in hardware rather than in ModelSim.
+</div>
 
 ## FPGA Block Diagram
