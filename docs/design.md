@@ -33,7 +33,7 @@ permalink: /design/
    The FPGA's main function is to define the game logic using an FSM (finite state machine). On reset, or (re)starting the game, the game is in a sensing state. This is the state of the game for the most part. It senses: target hit, tunnel entered, win, and lose. If a target is hit, the game transitions to that state for a cycle in order to increment the score, and then it goes into a waiting state to wait for the button to be released to prevent multiple points from being rewarded from a single, prolonged button press. 
 </div>
 <div>
-   
+</div>
    The tunnel is considered entered when the second point in the tunnel array is obscured by the ball (tunnel[1]). From here, similar to hitting a target, the FSM goes into the Tunnel_1 state and increments the score for one cycle. Then, it goes into a waiting state. In this waiting state, the FSM is sensing for movement in the tunnel: whether the ball moves to the next gate (tunnel[2]) or falls out from the entrance (tunnel[0], the buffer). If it falls out from the entrance, the FSM returns to the sensing state. If it progresses to the next gate, it repeats the pattern of moving to Tunnel_2 and incrementing the score for one cycle, and then it moves to the corresponding waiting state. In this waiting state, the FSM similarly waits for the ball to progress to the third and final gate or for the ball to fall out from the entrance. If the ball falls out from the entrance, the FSM returns to the sensing state. If it crosses the third gate, it goes into Tunnel_3 state and increments the score for one cycle before returning to the sensing state.
 </div>
 <div>
