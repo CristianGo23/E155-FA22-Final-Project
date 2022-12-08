@@ -9,7 +9,7 @@ permalink: /doc/
 <div style="text-align: left">
   <img src="./assets/schematics/Tunnel & Lose.jpg" alt="logo" width="500" />
 </div>
-<span class="bolded">IR Photodiode Sensors & IR LED Circuit (Tunnel & Lose)</span>
+# IR Photodiode Sensors & IR LED Circuit (Tunnel & Lose)
 <div style="text-align: left">
   <img src="./assets/schematics/FSM Reset.jpg" alt="logo" width="300" />
 </div>
