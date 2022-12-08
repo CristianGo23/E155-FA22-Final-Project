@@ -6,9 +6,11 @@ permalink: /doc/
 
 # Schematics
 <!-- Include images of the schematics for your system. They should follow best practices for schematic drawings with all parts and pins clearly labeled. You may draw your schematics either with a software tool or neatly by hand. -->
+
 <div style="text-align: left">
   <img src="./assets/schematics/Tunnel & Lose.jpg" alt="logo" width="500" />
 </div>
+
 <span class="bolded">IR Photodiode Sensors & IR LED Circuit (Tunnel & Lose)</span>
 <div style="text-align: left">
   <img src="./assets/schematics/FSM Reset.jpg" alt="logo" width="300" />
