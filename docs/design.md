@@ -6,12 +6,17 @@ permalink: /design/
 
 # MCU Design
 <div>
-   The MCU was designed to control the light and sound of our system. We're using the microcontroller's PWM and timer functionality to specify pitches and durations of sounds to play. We use TIM15 to specify durations with 1ms precision. We use TIM16 to play sounds within the typical hearing range of a person (20Hz to 20kHz).
+   The MCU was designed to control the light and sound of our system. We're using the microcontroller's PWM (pulse width modulation) and timer functionality to specify pitches and durations of sounds to play. We use TIM15 to specify durations with 1ms precision. We use TIM16 to play sounds within the typical hearing range of a person (20Hz to 20kHz).
 </div>
 <div>
    
-   In order to play a note, we have a playNote function that takes in a pitch and duration (from lab 5). It starts the timer, starts the PWM at a specified frequency, and then reads the timer until the duration is reached. Once this happens, the PWM signal is turned off, stopping the sound. (Description minimal here since we did this in lab 5).
+   In order to play a note, we have a playNote function that takes in a pitch and duration as inputs. First, TIM16 is set up to do 50% PWM at the specified frequency. TIM16 is enabled to play the sound. Then, the MCU reads TIM15 until the duration is reached. Once this happens, TIM16 is disabled – stopping the sound.
 </div>
+<div>
+   
+   The MCU communicates with the LED light strip via SPI (serial peripheral interface). The light strip's communication protocol only requires two lines: sclk (serial clock) and sdi (serial data in). Chip select is not utilized in the communication protocol because the light strip is designed to always respond when the sclk is activated. Serial data out (sdo) is not utilized because there is no useful information to pass back to the controller.
+</div>
+
 <div>
    
    In the main method, we first initialize the registers we need for TIM15, TIM16, and GPIO input pins required to read alert_MCU from the FPGA. After this, we enter a while(1) loop where the MCU reads the alert_MCU signal and uses it to determine the sound sequence to play. Right now, sequences with a duration of 10ms are designated that way because the FPGA stays in those states for a variable amount of time. Sequences with a duration of 500ms are representative of states reached where we do not need to be worried about being super responsive to the next signal: win, lose, hitting a target, and reaching the last gate of the tunnel.
