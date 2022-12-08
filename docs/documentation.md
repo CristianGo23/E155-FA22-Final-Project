@@ -69,4 +69,4 @@ The source code for the project is located in the Github repository [here](https
 | 8 Ohm 4 W Speaker | n/a | 1 | $0.00 | ENGR155 Lab |
 | MarkForged Carbon Fiber Print | n/a | 1 | $15.26 | Mudd Makerspace |
 
-**Total cost: $55.61**
+**Total cost: $57.98**
