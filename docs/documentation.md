@@ -27,7 +27,7 @@ permalink: /doc/
 </div>
 <span class="bolded">Microcontroller (MCU)</span>
 <div style="text-align: left">
-  <img src="./assets/schematics/Target.jpg" alt="logo" width="250" />
+  <img src="./assets/schematics/Target.jpg" alt="logo" width="200" />
 </div>
 <span class="bolded">Target Buttons Circuit</span>
 <div style="text-align: left">
