@@ -63,8 +63,8 @@ The source code for the project is located in the Github repository [here](https
 | OP950 IR Photodiode |  365-1085-ND | 10 | $7.40 |  [link]([https://www.adafruit.com/product/3317](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OP950/498711?s=N4IgTCBcDaIPIAUCcBWADCAugXyA)) |
 | IR1503 Infrared Emitter 940nm  |  1080-1071-ND | 10 | $0.46 |  [link](https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/IR1503/2675562) |
 | APA102 SPI Addressable LED RGB Strip |  14015 | 1 | $17.50 |  [link]([https://www.adafruit.com/product/3317](https://www.sparkfun.com/products/14015)) |
-| Spare Wood Stock | n/a | 1 | $0.00 | Machine Shop |
-| 3D Printer PLA Filament Prints | n/a | 2 | $0.00 | Mudd Makerspace |
+| MDF | n/a | 6sqft | $0.00 | Inherited from Alumni |
+| 3D Printer PLA Filament Prints | n/a | 4 | $0.00 | Mudd Makerspace |
 | Multiplexed Seven Segment Display | n/a | 1 | $0.00 | ENGR155 Lab |
 | 8 Ohm 4 W Speaker | n/a | 1 | $0.00 | ENGR155 Lab |
 | MarkForged Carbon Fiber Print | n/a | 1 | $15.26 | Mudd Makerspace |
