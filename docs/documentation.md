@@ -10,7 +10,7 @@ permalink: /doc/
 # Source Code Overview
 <!-- This section should include information to describe the organization of the code base and highlight how the code connects. -->
 
-The source code for the project is located in the Github repository [here](https://github.com/joshbrake/example-project-portfolio/tree/main/src).
+The source code for the project is located in the Github repository [here](https://github.com/CristianGo23/E155-FA22-Final-Project/tree/main/src).
 
 # Bill of Materials
 <!-- The bill of materials should include all the parts used in your project along with the prices and links.  -->
@@ -23,6 +23,8 @@ The source code for the project is located in the Github repository [here](https
 | APA102 SPI Addressable LED RGB Strip |  14015 | 1 | $17.50 |  [link]([https://www.adafruit.com/product/3317](https://www.sparkfun.com/products/14015)) |
 | Spare Wood Stock | n/a | 1 | $0.00 | Machine Shop |
 | 3D Printer PLA Filament Prints | n/a | 2 | $0.00 | Mudd Makerspace |
+| Multiplexed Seven Segment Display | n/a | 1 | $0.00 | ENGR155 Lab |
+| 8 Ohm 4 W Speaker | n/a | 1 | $0.00 | ENGR155 Lab |
 | MarkForged Carbon Fiber Print | n/a | 1 | $15.26 | Mudd Makerspace |
 
 **Total cost: $55.61**
