@@ -11,5 +11,3 @@ permalink: /resources/
   [3] [APA102 SPI Addressable LED RGB Strip Data Sheet](http://cdn.sparkfun.com/datasheets/Components/LED/APA102C.pdf)
   [4] [APA102 SPI Addressable LED RGB Strip Data Sheet] (http://cdn.sparkfun.com/datasheets/Components/LED/S60102.pdf)
 </div>
-
-# Inspiration
