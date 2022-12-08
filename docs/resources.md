@@ -5,6 +5,8 @@ permalink: /resources/
 ---
 
 # References
-
+<div>
+  [1] 
+</div>
 
 # Inspiration
