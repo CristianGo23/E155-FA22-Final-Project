@@ -24,3 +24,6 @@ In this version of pinball, there is a win condition dictated by a score thresho
 
 
 # System Block Diagram
+<div style="text-align: left">
+  <img src="./assets/img/Main_Block_Diagram.jpg" alt="logo" width="300" />
+</div>
