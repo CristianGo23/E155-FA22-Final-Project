@@ -8,7 +8,7 @@ permalink: /doc/
 The Infrared Emitter LEDs (IR1503) are currently being powered through the 3.3V power supplied by the micro USB port on the Development Board. In order for the Photodiode (OP950) to recognize the IR light, it has to be facing directly toward the LED shown in the figure below.
 
 <div style="text-align: left">
-  <img src="../assets/schematics/Tunnel & Lose.jpg" alt="logo" width="500" />
+  <img src="../assets/img/Photodiode.jpg" alt="logo" width="500" />
 </div>
 
 At a default state, the circuit involving the photodiode provides a high signal of around 3.3V when no blockage is present between the LED and the photodiode. When there is a blockage, the circuit outputs around 0V, which is enough for the FPGA to read as the input pin being driven low. This allows us to line up the 4 LEDs and photodiodes inside a CAD model of a tunnel, and track when a marble passes through each sensor, in order to signal the number of points they receive from passing however much distance through the tunnel.
