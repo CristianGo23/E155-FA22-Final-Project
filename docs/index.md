@@ -22,6 +22,11 @@ exclude: true
 In this version of pinball, there is a win condition dictated by a score threshold. There is no concept of multiple lives – if the ball passes beyond the flippers (IR LED/sensor pair), the game is lost. The game needs to be reset when either win or lose triggers. 
 </div>
 
+# Project Video Demonstration
+<div style="text-align: left">
+  <img src="./assets/img/Video.jpg" alt="logo" width="550" />
+</div>
+Click [here](https://youtube.com/shorts/QZPnORBl8wo?feature=share) to see the video demonstration of our project!
 
 # System Block Diagram
 <div style="text-align: left">
