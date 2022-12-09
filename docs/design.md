@@ -55,11 +55,14 @@ permalink: /design/
 ## FPGA FSM Logic Diagram
 
 <div style="text-align: left">
-  <img src="../assets/schematics/Game FSM Logic.jpg" alt="logo" width="500" />
+  <img src="../assets/img/Game FSM Logic.jpg" alt="logo" width="500" />
 </div>
 
 ## FPGA Block Diagram
 
+<div style="text-align: left">
+  <img src="../assets/img/FPGA_Block.jpg" alt="logo" width="500" />
+</div>
 
 ## Results
 <div>
