@@ -53,3 +53,12 @@ permalink: /design/
 <div style="text-align: left">
   <img src="../assets/schematics/Game FSM Logic.jpg" alt="logo" width="500" />
 </div>
+
+## Results
+<div>
+   Overall, we succeeded in achieving our deliverables: a pinball game with multiple targets and a tunnel for scoring where a player wins by exceeding a score theshold and loses when the ball drops between the flippers. The scoring methods are all functional, allowing one point per target hit and up to three for entering the tunnel. The win and lose operations work as well. The LED light strip and speaker produce unique light and sound that create an arcade feel and communicate to the player the state of the game. Additionally, the robustness of the flippers allows for high tolerance for the strong forces sometimes required to score points. The enclosure is effective at both holding the game together during violent play and hiding away the wiring for a more elegant look.
+</div>
+<div>
+   
+   This version of pinball is particularly harder than others for several reasons. One example is that the buttons are relatively tough, so the player must hit them square and hard with the ball in order to score. In addition, there is a pin in front of the tunnel that makes it harder for the player to get the ball into the tunnel. This pin is necessary in order to prevent the user from being punished when they get in the tunnel (since the tunnel is vertical and aligned with the center of the flippers). It is for these reasons that we set the winning threshold as 8 points. The simplicity and difficulty of the game make it fun and addicting, allowing groups of people to enjoy long periods of entertainment in our one-game arcade.
+</div>
