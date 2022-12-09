@@ -27,6 +27,9 @@ permalink: /design/
 </div>
 
 ## MCU Block Diagram
+<div style="text-align: left">
+  <img src="../assets/img/MCU_Block.jpg" alt="logo" width="500" />
+</div>
 
 # FPGA Design
 <div>
@@ -49,10 +52,14 @@ permalink: /design/
    We used test benches to verify the FSM as well as the pinball game as a whole (in FPGA). As we started implementing the hardware, we did more testing in hardware rather than in ModelSim. The testbenches in the repository were used to confirm accurate FSM flow as well as correct scoring.
 </div>
 
-## FPGA Block Diagram
+## FPGA FSM Logic Diagram
+
 <div style="text-align: left">
   <img src="../assets/schematics/Game FSM Logic.jpg" alt="logo" width="500" />
 </div>
+
+## FPGA Block Diagram
+
 
 ## Results
 <div>
